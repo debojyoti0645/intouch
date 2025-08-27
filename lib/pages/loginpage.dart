@@ -79,22 +79,15 @@ class _LoginPageViewState extends State<LoginPageView> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 // Logo
-                Icon(
-                  Icons.logo_dev,
-                  size: 80,
-                  color: Theme.of(context).colorScheme.primary,
-                ),
-                // Title
-                Text(
-                  "Always keep inTouch.",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w500,
-                    color: Theme.of(context).colorScheme.primary,
-                  ),
-                ),
+                Image.asset('assets/logo.png', height: 150),
 
-                const SizedBox(height: 24),
+                const SizedBox(height: 16),
+
+                Divider(
+                  color: Theme.of(context).colorScheme.outline.withOpacity(0.3),
+                  thickness: 1,
+                ),
+                const SizedBox(height: 16),
 
                 // Welcome Text
                 Text(
