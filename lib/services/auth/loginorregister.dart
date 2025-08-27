@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intouch/pages/loginview.dart';
+import 'package:intouch/pages/loginpage.dart';
 import 'package:intouch/pages/registerpage.dart';
 
 class LoginOrRegister extends StatefulWidget {
