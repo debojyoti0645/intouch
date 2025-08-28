@@ -19,28 +19,28 @@ A modern, real-time chat application built with Flutter and Firebase. Stay conne
 
 ```
 lib/
-├── components/           # Reusable UI components
+├── components/           
 │   ├── chat_bubble.dart
 │   ├── my_button.dart
 │   ├── my_drawer.dart
 │   ├── my_testfield.dart
 │   └── user_tile.dart
-├── models/              # Data models
+├── models/              
 │   └── messages.dart
-├── pages/               # App screens
+├── pages/               
 │   ├── chat_page.dart
 │   ├── homepage.dart
 │   ├── loginview.dart
 │   ├── registerpage.dart
 │   └── settingspage.dart
-├── services/            # Business logic
+├── services/            
 │   ├── auth/
 │   │   ├── auth_gate.dart
 │   │   ├── auth_service.dart
 │   │   └── loginorregister.dart
 │   └── chat/
 │       └── chat_services.dart
-├── themes/              # App theming
+├── themes/              
 │   ├── darkmode.dart
 │   ├── lightmode.dart
 │   └── theme_provider.dart
